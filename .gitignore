@@ -1,0 +1,17 @@
+# ignorar el entorno virtual
+venv/
+
+# Ignorar archivos temporales y de construcción
+*.tmp
+*.bak
+# ignorar el archivo que contiene la api key
+.env 
+# Ignorar archivos de configuración de editores
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Ignorar archivos de logs y caché
+*.log
+*.cache
