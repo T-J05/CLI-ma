@@ -44,7 +44,7 @@ def clima():
                     "presion": f"{datos_json['pressure']} hPa",
                     "humedad": f"{datos_json['humidity']}%"
             }
-            json_simple = json.dumps(jsonn, ensure_ascii=False, indent=4)  # covertimos el diccionario en json simple para su lectura
+            json_simple = json.dumps(jsonn, ensure_ascii=False, indent=4)  # convertimos el diccionario en json simple para su lectura
             if tipo == "json":  # imprime en json
                 print(json_simple)
 
